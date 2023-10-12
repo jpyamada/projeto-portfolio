@@ -1,0 +1,53 @@
+.background{
+    background-color: #00ADA2;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 5rem;
+    top: 0;
+    border-radius: 30px;
+    background-color: #00756D;
+    opacity: 20%;
+    transition: .5s;
+}
+
+.cabecalho:hover{
+    opacity: 100%;
+}
+
+.items{
+    display:flex;
+    gap: 2rem;
+}
+
+.items img{
+    transition: .35s;
+    transform: scale(1.0)
+}
+
+.items img:hover{
+    transform: scale(1.2)
+}
+
+.secao1{
+    background-color: #00302D;
+    padding: 25px;
+    height: 40rem;
+
+}
+
+.secao2{
+    background-color: #260030;
+    padding: 25px;
+    height: 40rem;
+
+}
